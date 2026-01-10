@@ -1,18 +1,43 @@
+h1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 46, 86);
+    text-align: center;
+    font-family: impact;
+}
+
 h3{
-    color:blue;
+    color:rgb(232, 232, 232);
+    font-family: impact;
+    letter-spacing: 0.7px;
+    
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(0, 46, 86);;
 }
 p{
-    color: #64748B
-    ;
+    color: #64748B;
+    font-family:arial black;
+    font-weight: normal;
 }
-big{
-    color: #1e4070
-    ;
+h2{
+    color: #ffffff;
+    font-family:impact ;
+    background-color: rgb(0, 46, 86);
+    text-align: start;
 }
 b{
     color: rgb(8, 75, 169);
+    
 }
 button{
     
     background-color: #c2c9d2;
+}
+a{
+    text-align: left;
+    font-family: arial;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+   
 }
