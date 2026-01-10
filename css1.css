@@ -1,43 +1,55 @@
-h1{
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 46, 86);
-    text-align: center;
-    font-family: impact;
-}
 
-h3{
-    color:rgb(232, 232, 232);
-    font-family: impact;
-    letter-spacing: 0.7px;
-    
-    text-align: center;
-    font-size: 22px;
-    background-color: rgb(0, 46, 86);;
-}
 p{
-    color: #64748B;
+    color: black;
     font-family:arial black;
     font-weight: normal;
 }
-h2{
-    color: #ffffff;
-    font-family:impact ;
-    background-color: rgb(0, 46, 86);
-    text-align: start;
-}
+
+
+
 b{
-    color: rgb(8, 75, 169);
+    color:black;
     
-}
-button{
-    
-    background-color: #c2c9d2;
 }
 a{
     text-align: left;
     font-family: arial;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 900;
    
 }
+/* headingspart is for headings only*/
+.headingspart{
+    background-color: #b92b27;
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    
+    
+}
+.headingsparts{
+    text-align: center;
+}
+.headingspart:hover{
+    color: #b92b27;
+    background-color: whitesmoke;
+}
+/* rbutton is for all the buttons which have links... wont change the text style*/
+.rbutton{
+    background-color: #b92b27;
+    color: whitesmoke;
+}
+.rbutton:hover {
+   
+    background-color: rgb(255, 183, 0);
+}
+.rbutton:active{
+    background-color: white;
+    color: rgb(255, 183, 0);
+}
+/* if a style changes the link name which appears will change*/
+a:hover{
+    color: #b92b27;
+}
+
